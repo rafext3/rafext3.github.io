@@ -1,0 +1,77 @@
+header{
+    background-color: rgb(182, 250, 208);
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px transparent rgb(155, 250, 195);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 3%;
+}
+
+header a{
+    color:rgb(7, 5, 2);
+    text-decoration: none;
+}
+
+header ul, header ol{
+    margin: 0px;    
+}
+header li{
+    display: inline;
+}
+
+.vertical{
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-right: 1em;
+}
+
+body{
+    margin: auto;
+}
+img{
+    min-width: 60%;
+    max-width: 100%;
+    align
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 1.4em;
+}
+
+article{
+    background-color: rgb(194, 246, 250);
+    border: 2px solid rgb(149, 160, 253);
+    padding: 2em;
+    margin-bottom: 3em;
+    box-shadow: 20px 10px 5px 0px rgba(127, 219, 240, 0.75);
+}
+
+h1{
+    font-family: 'Saira Stencil One', cursive;    padding-top: 2em;
+    text-align: center;
+    text-shadow: 3px 3px #b0ffff;
+}
+h2{
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+}
+main{
+    max-width: 1050px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+nav{
+    font-family: 'Saira Stencil One', cursive;
+}
